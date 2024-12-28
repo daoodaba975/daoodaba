@@ -14,22 +14,28 @@ export const projects: Project[] = [
       "A collection of tools created by Senegalese developers, usable by anyone around the world.",
   },
   {
+    name: "Galsen UI 🎨",
+    repo: "GalsenDev221/galsen.ui",
+    description:
+      "It's a library of reusable components based on Tailwind (pure CSS coming soon), designed to accelerate the development of modern interfaces.",
+  },
+  {
     name: "Galsenify 💫",
     repo: "daoodaba975/galsenify",
     description:
       "An NPM package that makes it easy to work with data about Senegal, offering a wealth of information about the land of Teranga.",
   },
   {
-    name: "Taaru 🪐",
-    repo: "daoodaba975/taaru",
-    description:
-      "A collection of stylish dark VS Code themes inspired by the beauty of Senegal.",
-  },
-  {
     name: "Exlogrn 🚀",
     repo: "daoodaba975/exlogrn",
     description:
       "A starter app template for React Native Expo, featuring a ready-to-use login screen.",
+  },
+  {
+    name: "Taaru 🪐",
+    repo: "daoodaba975/taaru",
+    description:
+      "A collection of stylish dark VS Code themes inspired by the beauty of Senegal.",
   },
   {
     name: "JustFrontKit 🧱",
