@@ -41,7 +41,7 @@ const Readme = () => {
           building cool stuff and sharing it with the world !
         </p>
         <p className="text-sm text-night dark:text-snow">
-          Currently working @{" "}
+          Currently working in full-time 🏡 remote @{" "}
           <Link
             className="text-celtic dark:text-emerald hover:text-pacific dark:hover:text-mint"
             href="https://turingconsulting.fr"
@@ -62,8 +62,8 @@ const Readme = () => {
                 ></path>
               </svg>
             </span>
-          </Link>{" "}
-          in full-time remote 🏡 I am also the Founder & Lead of{" "}
+          </Link>
+          {". "} <br /> I am also the Founder & Lead of{" "}
           <Link
             className="text-celtic dark:text-emerald hover:text-pacific dark:hover:text-mint"
             href="https://galsen.dev"

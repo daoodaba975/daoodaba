@@ -19,7 +19,7 @@ const Footer = () => {
               <FaGithub />
               <Link
                 className="text-xs text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
-                href="https://github.com/daoodaba975"
+                href="https://github.com/daoodaba975/www"
                 target="_blank"
               >
                 #daoodaba975
