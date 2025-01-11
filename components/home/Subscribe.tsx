@@ -47,15 +47,15 @@ const Subscribe = () => {
 
   return (
     <div className="my-10 sm:my-14">
-      <h2 className="mb-5 font-medium text-raisin dark:text-snow">
+      <h2 className="mb-5 font-medium text-eigengrau dark:text-snow">
         📬 Subscribe.
       </h2>
 
       <form onSubmit={handleSubmit}>
-        <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-silver rounded-lg dark:border-raisin">
+        <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-silver rounded-lg dark:border-eigengrau">
           <div className="relative w-full">
             <label className="sr-only">Subscribe</label>
-            <div className="absolute text-raisin dark:text-silver inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
+            <div className="absolute text-eigengrau dark:text-silver inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
               <LuMailbox />
             </div>
             <input
@@ -64,12 +64,12 @@ const Subscribe = () => {
               name="email"
               required
               ref={emailInputRef}
-              className="py-2 ps-9 pe-3 block w-full border-silver rounded-lg text-sm focus:border-silver outline-pacific dark:outline-mint focus:ring-silver disabled:opacity-50 disabled:pointer-events-none bg-snow dark:bg-raisin dark:text-snow dark:placeholder-snow"
+              className="py-2 ps-9 pe-3 block w-full border-silver rounded-lg text-sm focus:border-silver outline-pacific dark:outline-mint focus:ring-silver disabled:opacity-50 disabled:pointer-events-none bg-snow dark:bg-eigengrau dark:text-snow dark:placeholder-snow"
               placeholder="Enter your email"
             />
           </div>
           <button
-            className="w-full sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic dark:bg-emerald text-snow hover:bg-pacific dark:text-snow dark:hover:bg-mint hover:text-raisin dark:hover:text-raisin focus:outline-none focus:bg-celtic disabled:opacity-50 disabled:pointer-events-none"
+            className="w-full sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic dark:bg-emerald text-snow hover:bg-pacific dark:text-snow dark:hover:bg-mint hover:text-eigengrau dark:hover:text-eigengrau focus:outline-none focus:bg-celtic disabled:opacity-50 disabled:pointer-events-none"
             type="submit"
           >
             Join
@@ -93,13 +93,13 @@ const Subscribe = () => {
             <div className="flex justify-between items-center pb-3 border-b border-silver dark:border-silver">
               <h3
                 id="hs-basic-modal-label"
-                className="font-bold text-raisin dark:text-snow"
+                className="font-bold text-eigengrau dark:text-snow"
               >
                 Subscription Successful
               </h3>
               <button
                 type="button"
-                className="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent bg-snow dark:bg-raisin text-raisin dark:text-snow focus:outline-none focus:bg-silver dark:focus:bg-raisin"
+                className="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent bg-snow dark:bg-eigengrau text-eigengrau dark:text-snow focus:outline-none focus:bg-silver dark:focus:bg-eigengrau"
                 aria-label="Close"
                 onClick={handleCloseModal}
               >
@@ -107,13 +107,13 @@ const Subscribe = () => {
                 <IoMdClose />
               </button>
             </div>
-            <div className="mt-3 text-raisin dark:text-snow">
+            <div className="mt-3 text-eigengrau dark:text-snow">
               Thanks for subscribing! Stay tuned for my latest updates.{" "}
             </div>
             <div className="mt-4 flex justify-end items-center gap-x-2">
               <button
                 type="button"
-                className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic dark:bg-emerald text-snow hover:bg-pacific dark:text-snow dark:hover:bg-mint hover:text-raisin dark:hover:text-raisin focus:outline-none focus:bg-celtic disabled:opacity-50"
+                className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic dark:bg-emerald text-snow hover:bg-pacific dark:text-snow dark:hover:bg-mint hover:text-eigengrau dark:hover:text-eigengrau focus:outline-none focus:bg-celtic disabled:opacity-50"
                 onClick={handleCloseModal}
               >
                 Close

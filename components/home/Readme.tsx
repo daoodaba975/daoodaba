@@ -73,10 +73,10 @@ const Readme = () => {
         </p>
 
         <ul className="mt-5 flex flex-col gap-y-3">
-          <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
+          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
             <FaGithub />
             <Link
-              className="text-[13px] text-raisin underline-none hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
+              className="text-[13px] text-eigengrau underline-none hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="https://github.com/daoodaba975"
               target="_blank"
             >
@@ -87,20 +87,20 @@ const Readme = () => {
               )}
             </Link>
           </li>
-          <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
+          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
             <FaXTwitter />
             <Link
-              className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
+              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="https://x.com/daoodaba975"
               target="_blank"
             >
               @daoodaba975
             </Link>
           </li>
-          <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
+          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
             <FaLinkedin />
             <Link
-              className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
+              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="https://www.linkedin.com/in/daoodaba975"
               target="_blank"
             >
