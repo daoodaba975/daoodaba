@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -41,29 +40,7 @@ const Readme = () => {
           building cool stuff and sharing it with the world !
         </p>
         <p className="text-sm text-night dark:text-snow">
-          Currently working in full-time 🏡 remote @{" "}
-          <Link
-            className="text-celtic dark:text-emerald hover:text-pacific dark:hover:text-mint"
-            href="https://turingconsulting.fr"
-            target="_blank"
-          >
-            <span className="text-sm font-bold relative inline-block stroke-current">
-              Turing Consulting Group
-              <svg
-                className="text-celtic dark:text-emerald absolute -bottom-0.5 w-full max-h-1.5"
-                viewBox="0 0 55 5"
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                fill="currentColor"
-              >
-                <path
-                  d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002"
-                  strokeWidth="2"
-                ></path>
-              </svg>
-            </span>
-          </Link>
-          {". "} <br /> I am also the Founder & Lead of{" "}
+          I am the Founder & Lead of{" "}
           <Link
             className="text-celtic dark:text-emerald hover:text-pacific dark:hover:text-mint"
             href="https://galsen.dev"
