@@ -35,6 +35,7 @@ const config: Config = {
       },
       animation: {
         starScale: "starScale 800ms ease infinite",
+        slowspin: "spin 3s linear infinite",
       },
     },
   },
