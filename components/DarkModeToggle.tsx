@@ -35,7 +35,7 @@ const DarkModeToggle: React.FC = () => {
         type="button"
         className={`${
           theme === "light" ? "block" : "hidden"
-        } hs-dark-mode font-medium text-raisin rounded-full hover:bg-silver focus:outline-none dark:text-snow dark:hover:bg-raisin`}
+        } hs-dark-mode font-medium text-eigengrau rounded-full hover:bg-silver focus:outline-none dark:text-snow dark:hover:bg-eigengrau`}
         onClick={() => handleThemeChange("dark")}
         data-hs-theme-click-value="dark"
       >
@@ -47,7 +47,7 @@ const DarkModeToggle: React.FC = () => {
         type="button"
         className={`${
           theme === "dark" ? "block" : "hidden"
-        } hs-dark-mode font-medium text-raisin rounded-full hover:bg-silver focus:outline-none dark:text-snow dark:hover:bg-raisin`}
+        } hs-dark-mode font-medium text-eigengrau rounded-full hover:bg-silver focus:outline-none dark:text-snow dark:hover:bg-eigengrau`}
         onClick={() => handleThemeChange("light")}
         data-hs-theme-click-value="light"
       >

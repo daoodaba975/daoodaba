@@ -11,11 +11,11 @@ const config: Config = {
     colors: {
       snow: "#EBF2FA",
       silver: "#D2D7DF",
-      celtic: "#016ED1",
+      celtic: "#0953BC",
       pacific: "#85C4FE",
       emerald: "#49D49D",
       mint: "#9CE8C9",
-      raisin: "#25262B",
+      eigengrau: "#16161D",
       night: "#101113",
       red: "#E54B4B",
     },
@@ -35,6 +35,7 @@ const config: Config = {
       },
       animation: {
         starScale: "starScale 800ms ease infinite",
+        slowspin: "spin 3s linear infinite",
       },
     },
   },

@@ -1,10 +1,9 @@
-import React from "react";
 import Image from "next/image";
 
 const Stack = () => {
   return (
     <div className="my-10 sm:my-14">
-      <h2 className="mb-5 font-medium text-raisin dark:text-snow">
+      <h2 className="mb-5 font-medium text-eigengrau dark:text-snow">
         📦 Stacks.
       </h2>
 
@@ -12,7 +11,7 @@ const Stack = () => {
         <dl className="flex flex-col sm:flex-row gap-1">
           <dd>
             <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/react.webp"
@@ -21,7 +20,7 @@ const Stack = () => {
                   height={34}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/nextjs.webp"
@@ -30,7 +29,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/rails.webp"
@@ -39,7 +38,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[30px] h-auto"
                   src="/stacks/flutter.webp"
@@ -55,7 +54,7 @@ const Stack = () => {
         <dl className="flex flex-col sm:flex-row gap-1">
           <dd>
             <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[40px] h-auto"
                   src="/stacks/tailwind.webp"
@@ -64,7 +63,7 @@ const Stack = () => {
                   height={36}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/headlessui.webp"
@@ -73,7 +72,7 @@ const Stack = () => {
                   height={30}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[26px] h-auto"
                   src="/stacks/figma.webp"
@@ -82,7 +81,7 @@ const Stack = () => {
                   height={24}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/canva.webp"
@@ -91,7 +90,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[40px] h-auto"
                   src="/stacks/blender.webp"
@@ -107,7 +106,7 @@ const Stack = () => {
         <dl className="flex flex-col sm:flex-row gap-1">
           <dd>
             <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/postgresql.webp"
@@ -116,7 +115,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/neon.webp"
@@ -125,7 +124,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[34px] h-auto block dark:hidden"
                   src="/stacks/prisma_light.webp"
@@ -141,7 +140,7 @@ const Stack = () => {
                   height={30}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/firebase.webp"
@@ -150,7 +149,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/pocketbase.webp"
@@ -166,7 +165,7 @@ const Stack = () => {
         <dl className="flex flex-col sm:flex-row gap-1">
           <dd>
             <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/playwright.webp"
@@ -175,7 +174,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[32px] h-auto"
                   src="/stacks/cucumber.webp"
@@ -184,7 +183,7 @@ const Stack = () => {
                   height={30}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/postman.webp"
@@ -193,7 +192,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/swagger.webp"
@@ -202,7 +201,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/graphql.webp"
@@ -218,7 +217,7 @@ const Stack = () => {
         <dl className="flex flex-col sm:flex-row gap-1">
           <dd>
             <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/netlify.webp"
@@ -227,7 +226,7 @@ const Stack = () => {
                   height={30}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/docker.webp"
@@ -236,7 +235,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/vscode.webp"
@@ -245,7 +244,7 @@ const Stack = () => {
                   height={32}
                 />
               </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/npm.webp"
@@ -261,13 +260,13 @@ const Stack = () => {
         <dl className="flex flex-col sm:flex-row gap-1">
           <dd>
             <ul>
-              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 Web Development
               </li>
-              <li className="me-1 inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 Mobile Apps
               </li>
-              <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
+              <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 & Testing
               </li>
             </ul>

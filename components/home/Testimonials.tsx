@@ -1,17 +1,16 @@
-import React from "react";
 import Image from "next/image";
 
 const Testimonials = () => {
   return (
     <div className="mt-10 sm:mt-14">
-      <h2 className="mb-3 font-medium text-raisin dark:text-snow">
+      <h2 className="mb-3 font-medium text-eigengrau dark:text-snow">
         Testimonials
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-silver divide-y sm:divide-y-0 sm:divide-x divide-silver dark:divide-raisin dark:border-raisin">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-silver divide-y sm:divide-y-0 sm:divide-x divide-silver dark:divide-eigengrau dark:border-eigengrau">
         <div className="sm:-ms-4 py-6 sm:px-4">
           <blockquote>
-            <span className="text-sm text-raisin dark:text-snow">
+            <span className="text-sm text-eigengrau dark:text-snow">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste
               officia nemo eos atque ullam sequi. Reiciendis sapiente iure
               quibusdam omnis libero excepturi perspiciatis quae provident nulla
@@ -28,7 +27,7 @@ const Testimonials = () => {
                   alt="Avatar"
                 />
                 <div className="grow">
-                  <div className="text-xs text-raisin dark:text-snow">
+                  <div className="text-xs text-eigengrau dark:text-snow">
                     Firstname Lastname
                   </div>
                 </div>
@@ -39,7 +38,7 @@ const Testimonials = () => {
 
         <div className="py-6 sm:px-4">
           <blockquote>
-            <span className="text-sm text-raisin dark:text-snow">
+            <span className="text-sm text-eigengrau dark:text-snow">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste
               officia nemo eos atque ullam sequi. Reiciendis sapiente iure
               quibusdam omnis libero excepturi perspiciatis quae provident nulla
@@ -56,7 +55,7 @@ const Testimonials = () => {
                   alt="Avatar"
                 />
                 <div className="grow">
-                  <div className="text-xs text-raisin dark:text-snow">
+                  <div className="text-xs text-eigengrau dark:text-snow">
                     Firstname Lastname
                   </div>
                 </div>

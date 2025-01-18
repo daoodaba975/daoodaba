@@ -1,11 +1,10 @@
-import React from "react";
 import Image from "next/image";
 import { MdOutlineWorkOutline } from "react-icons/md";
 
 const Experience = () => {
   return (
     <div className="mt-10 sm:mt-14">
-      <h2 className="mb-5 font-medium text-raisin dark:text-snow">
+      <h2 className="mb-5 font-medium text-eigengrau dark:text-snow">
         🧷 Work experience.
       </h2>
 
@@ -29,7 +28,7 @@ const Experience = () => {
               2022
             </h3>
 
-            <p className="font-semibold text-sm text-raisin dark:text-snow">
+            <p className="font-semibold text-sm text-eigengrau dark:text-snow">
               FullStack Developer
             </p>
 
@@ -70,7 +69,7 @@ const Experience = () => {
               @ CIGA (Part-time) - since December 2023
             </h3>
 
-            <p className="font-semibold text-sm text-raisin dark:text-snow">
+            <p className="font-semibold text-sm text-eigengrau dark:text-snow">
               Teacher
             </p>
 
@@ -104,7 +103,7 @@ const Experience = () => {
               @ Xarala (Part-time) - since February 2022
             </h3>
 
-            <p className="font-semibold text-sm text-raisin dark:text-snow">
+            <p className="font-semibold text-sm text-eigengrau dark:text-snow">
               Mentor
             </p>
 
@@ -140,7 +139,7 @@ const Experience = () => {
               @ Norma (Remote, full time) - September 2021 / January 2022
             </h3>
 
-            <p className="font-semibold text-sm text-raisin dark:text-snow">
+            <p className="font-semibold text-sm text-eigengrau dark:text-snow">
               FullStack Software Engineer
             </p>
 
@@ -191,7 +190,7 @@ const Experience = () => {
               September 2021
             </h3>
 
-            <p className="font-semibold text-sm text-raisin dark:text-snow">
+            <p className="font-semibold text-sm text-eigengrau dark:text-snow">
               Web Developer
             </p>
 
@@ -226,7 +225,7 @@ const Experience = () => {
 
         <div className="group relative flex gap-x-5">
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
-            <div className="relative z-10 size-6 flex justify-center items-center text-raisin dark:text-snow">
+            <div className="relative z-10 size-6 flex justify-center items-center text-eigengrau dark:text-snow">
               <MdOutlineWorkOutline />
             </div>
           </div>
@@ -236,7 +235,7 @@ const Experience = () => {
               Freelance - May 2018 / September 2021
             </h3>
 
-            <p className="font-semibold text-sm text-raisin dark:text-snow">
+            <p className="font-semibold text-sm text-eigengrau dark:text-snow">
               FullStack Developer
             </p>
 
@@ -255,7 +254,7 @@ const Experience = () => {
 
         <div className="group relative flex gap-x-5">
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
-            <div className="relative z-10 size-6 flex justify-center items-center text-raisin dark:text-snow">
+            <div className="relative z-10 size-6 flex justify-center items-center text-eigengrau dark:text-snow">
               <MdOutlineWorkOutline />
             </div>
           </div>
@@ -265,7 +264,7 @@ const Experience = () => {
               @ Baobab TS (Traineeship) - October 2018 / February 2019
             </h3>
 
-            <p className="font-semibold text-sm text-raisin dark:text-snow">
+            <p className="font-semibold text-sm text-eigengrau dark:text-snow">
               Developer Frontend
             </p>
 
