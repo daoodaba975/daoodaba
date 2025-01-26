@@ -14,7 +14,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/react.webp"
+                  src="/img/stacks/react.webp"
                   alt="React"
                   width={34}
                   height={34}
@@ -23,7 +23,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/nextjs.webp"
+                  src="/img/stacks/nextjs.webp"
                   alt="Next"
                   width={32}
                   height={32}
@@ -32,7 +32,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/rails.webp"
+                  src="/img/stacks/rails.webp"
                   alt="Rails"
                   width={32}
                   height={32}
@@ -41,7 +41,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[30px] h-auto"
-                  src="/stacks/flutter.webp"
+                  src="/img/stacks/flutter.webp"
                   alt="Flutter"
                   width={28}
                   height={28}
@@ -57,7 +57,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[40px] h-auto"
-                  src="/stacks/tailwind.webp"
+                  src="/img/stacks/tailwind.webp"
                   alt="Tailwind"
                   width={36}
                   height={36}
@@ -66,7 +66,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/headlessui.webp"
+                  src="/img/stacks/headlessui.webp"
                   alt="Headless UI"
                   width={30}
                   height={30}
@@ -75,7 +75,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[26px] h-auto"
-                  src="/stacks/figma.webp"
+                  src="/img/stacks/figma.webp"
                   alt="Figma"
                   width={24}
                   height={24}
@@ -84,7 +84,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/canva.webp"
+                  src="/img/stacks/canva.webp"
                   alt="Canva"
                   width={32}
                   height={32}
@@ -93,7 +93,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[40px] h-auto"
-                  src="/stacks/blender.webp"
+                  src="/img/stacks/blender.webp"
                   alt="Blender"
                   width={36}
                   height={36}
@@ -109,7 +109,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/postgresql.webp"
+                  src="/img/stacks/postgresql.webp"
                   alt="PosgreSQL"
                   width={32}
                   height={32}
@@ -118,7 +118,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/neon.webp"
+                  src="/img/stacks/neon.webp"
                   alt="Neon"
                   width={32}
                   height={32}
@@ -127,14 +127,14 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[34px] h-auto block dark:hidden"
-                  src="/stacks/prisma_light.webp"
+                  src="/img/stacks/prisma_light.webp"
                   alt="Prisma"
                   width={30}
                   height={30}
                 />
                 <Image
                   className="shrink-0 me-1 w-[34px] h-auto hidden dark:block"
-                  src="/stacks/prisma_dark.webp"
+                  src="/img/stacks/prisma_dark.webp"
                   alt="Prisma"
                   width={30}
                   height={30}
@@ -143,7 +143,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/firebase.webp"
+                  src="/img/stacks/firebase.webp"
                   alt="Firebase"
                   width={32}
                   height={32}
@@ -152,7 +152,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/pocketbase.webp"
+                  src="/img/stacks/pocketbase.webp"
                   alt="Pocketbase"
                   width={32}
                   height={32}
@@ -168,7 +168,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/playwright.webp"
+                  src="/img/stacks/playwright.webp"
                   alt="Playwright"
                   width={32}
                   height={32}
@@ -177,7 +177,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[32px] h-auto"
-                  src="/stacks/cucumber.webp"
+                  src="/img/stacks/cucumber.webp"
                   alt="Cucumber"
                   width={30}
                   height={30}
@@ -186,7 +186,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/postman.webp"
+                  src="/img/stacks/postman.webp"
                   alt="Postman"
                   width={32}
                   height={32}
@@ -195,7 +195,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/swagger.webp"
+                  src="/img/stacks/swagger.webp"
                   alt="Swagger"
                   width={32}
                   height={32}
@@ -204,7 +204,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/graphql.webp"
+                  src="/img/stacks/graphql.webp"
                   alt="GraphQL"
                   width={32}
                   height={32}
@@ -220,7 +220,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/netlify.webp"
+                  src="/img/stacks/netlify.webp"
                   alt="Netlify"
                   width={30}
                   height={30}
@@ -229,7 +229,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/docker.webp"
+                  src="/img/stacks/docker.webp"
                   alt="Docker"
                   width={32}
                   height={32}
@@ -238,7 +238,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/vscode.webp"
+                  src="/img/stacks/vscode.webp"
                   alt="VS Code"
                   width={32}
                   height={32}
@@ -247,7 +247,7 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/npm.webp"
+                  src="/img/stacks/npm.webp"
                   alt="NPM"
                   width={32}
                   height={32}

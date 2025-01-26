@@ -10,7 +10,7 @@ const Education = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div className="p-4 border border-silver rounded-lg dark:border-eigengrau">
           <Image
-            src="/career/education/sonatel_academy.webp"
+            src="/img/career/education/sonatel_academy.webp"
             className="shrink-0 size-10 mb-3 rounded"
             width={32}
             height={32}
@@ -33,7 +33,7 @@ const Education = () => {
 
         <div className="p-4 border border-silver rounded-lg dark:border-eigengrau">
           <Image
-            src="/career/education/groupe_isi.webp"
+            src="/img/career/education/groupe_isi.webp"
             className="shrink-0 size-10 mb-3 rounded"
             width={32}
             height={32}
