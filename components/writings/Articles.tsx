@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const LatestArticles = () => {
+const Articles = () => {
   return (
     <div className="my-10 sm:my-14">
       <h2 className="mb-5 font-medium text-eigengrau dark:text-snow">
@@ -68,4 +68,4 @@ const LatestArticles = () => {
     </div>
   );
 };
-export default LatestArticles;
+export default Articles;

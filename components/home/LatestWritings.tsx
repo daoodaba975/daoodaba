@@ -1,4 +1,4 @@
-const LatestArticles = () => {
+const LatestWritings = () => {
   return (
     <div className="my-10 sm:my-14">
       <h2 className="mb-5 font-medium text-eigengrau dark:text-snow">
@@ -20,4 +20,4 @@ const LatestArticles = () => {
   );
 };
 
-export default LatestArticles;
+export default LatestWritings;
