@@ -1,7 +1,7 @@
 import Header from "@/../components/Header";
 import Readme from "@/../components/home/Readme";
 import Stack from "@/../components/home/Stack";
-import LatestArticles from "@/../components/home/LatestArticles";
+import LatestWritings from "@/../components/home/LatestWritings";
 import Subscribe from "@/../components/home/Subscribe";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <Header header="Home - Daouda BA, FullStack Developer 👨🏽‍💻" />
       <Readme />
       <Stack />
-      <LatestArticles />
+      <LatestWritings />
       <Subscribe />
     </>
   );
