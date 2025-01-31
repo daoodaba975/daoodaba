@@ -20,13 +20,12 @@ function Header(props: Readonly<HeaderProps>) {
           fetchpriority="high"
           href="/favicon.ico"
         />
-
         {/* OG Meta Tags */}
         <meta property="og:url" content="https://daooda.dev" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/d26yiyylbnrdjx9hnfd8.png"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1738362865/daooda/share/share_qazggv.png"
         />
         <meta property="og:title" content="Daouda BA" />
         <meta
@@ -35,7 +34,6 @@ function Header(props: Readonly<HeaderProps>) {
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="daooda.dev" />
@@ -47,7 +45,7 @@ function Header(props: Readonly<HeaderProps>) {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/d26yiyylbnrdjx9hnfd8.png"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1738362865/daooda/share/share_qazggv.png"
         />
       </Head>
       {/* Beam Analytics */}
