@@ -1,12 +1,12 @@
 import Header from "@/../components/Header";
-import LatestArticles from "@/../components/home/LatestArticles";
+import LatestWritings from "@/../components/home/LatestWritings";
 import Subscribe from "@/../components/home/Subscribe";
 
-export default function Articles() {
+export default function Writings() {
   return (
     <>
-      <Header header="Articles - Read all my latest writings here 🗞️" />
-      <LatestArticles />
+      <Header header="Writings - Read all my latest articles here 🗞️" />
+      <LatestWritings />
       <Subscribe />
     </>
   );

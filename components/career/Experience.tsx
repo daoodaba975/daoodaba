@@ -13,7 +13,7 @@ const Experience = () => {
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/career/experience/turing.webp"
+                src="/img/career/experience/turing.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
@@ -55,7 +55,7 @@ const Experience = () => {
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/career/experience/ciga.webp"
+                src="/img/career/experience/ciga.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
@@ -90,7 +90,7 @@ const Experience = () => {
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/career/experience/xarala.webp"
+                src="/img/career/experience/xarala.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
@@ -125,7 +125,7 @@ const Experience = () => {
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/career/experience/norma.webp"
+                src="/img/career/experience/norma.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
@@ -175,7 +175,7 @@ const Experience = () => {
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/career/experience/turing.webp"
+                src="/img/career/experience/turing.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}

@@ -1,13 +1,13 @@
-import Layout from "@/../components/Layout";
-import Loader from "@/../components/Loader";
-import "@/styles/globals.css";
-
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import type { AppProps } from "next/app";
 
 import { Sora } from "next/font/google";
 const sora = Sora({ subsets: ["latin"] });
+
+import Layout from "@/../components/Layout";
+import Loader from "@/../components/Loader";
+import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState(false);
