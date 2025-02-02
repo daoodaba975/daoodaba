@@ -32,10 +32,20 @@ const config: Config = {
             opacity: "1",
           },
         },
+        scrollX: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        scrollY: {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-100%)" },
+        },
       },
       animation: {
         starScale: "starScale 800ms ease infinite",
         slowspin: "spin 3s linear infinite",
+        scrollX: "scrollX var(--duration) linear infinite",
+        scrollY: "scrollY var(--duration) linear infinite",
       },
     },
   },
