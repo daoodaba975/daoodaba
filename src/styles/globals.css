@@ -7,40 +7,23 @@ body {
   --sb-thumb-color: #c1c1c1;
   --sb-size: 8px;
 }
+
 body::-webkit-scrollbar {
   width: var(--sb-size);
 }
+
 body::-webkit-scrollbar-track {
   background: var(--sb-track-color);
   border-radius: 8px;
 }
+
 body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
   border-radius: 8px;
 }
+
 @supports not selector(::-webkit-scrollbar) {
   body {
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
-  }
-}
-
-@layer utilities {
-  .mask-horizontal {
-    @apply [mask-image:linear-gradient(to_right,rgba(0,0,0,0)_0%,rgba(0,0,0,1)_20%,rgba(0,0,0,1)_80%,rgba(0,0,0,0)_100%)]
-            [mask-size:cover]
-            [mask-repeat:no-repeat];
-  }
-  .mask-vertical {
-    @apply [mask-image:linear-gradient(to_bottom,rgba(0,0,0,0)_0%,rgba(0,0,0,1)_20%,rgba(0,0,0,1)_80%,rgba(0,0,0,0)_100%)]
-            [mask-size:cover]
-            [mask-repeat:no-repeat];
-  }
-  .paused .animate-scrollX,
-  .paused .animate-scrollY {
-    animation-play-state: paused !important;
-  }
-  .reverse-x {
-    animation-direction: reverse;
-    animation-delay: -3s;
   }
 }
